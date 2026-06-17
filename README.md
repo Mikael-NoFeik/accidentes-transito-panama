@@ -50,8 +50,8 @@ Los datos provienen del Instituto Nacional de Estadística y Censo (INEC) y del 
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/usuario/proyecto-accidentes-panama.git
-cd proyecto-accidentes-panama
+git clone https://github.com/Mikael-NoFeik/accidentes-transito-panama.git
+cd accidentes-transito-panama
 ```
 
 ### 2. Crear y activar el entorno virtual
