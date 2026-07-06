@@ -53,7 +53,7 @@ st.markdown("""
 # ---------------------------------------------------------------
 @st.cache_data
 def cargar_datos():
-    df = pd.read_csv(r"../Datos/Accidentes de Transito - Dataset.csv", encoding="utf-8-sig")
+    df = pd.read_csv("Accidentes_de_Transito_Dataset.csv", encoding="utf-8-sig")
     return df
  
 df = cargar_datos()
