@@ -51,13 +51,16 @@ st.markdown("""
 # ---------------------------------------------------------------
 # Carga de datos (igual que en el notebook)
 # ---------------------------------------------------------------
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ruta_csv = os.path.join(BASE_DIR, "Accidentes de Transito - Dataset.csv")
+
 @st.cache_data
 def cargar_datos():
-    df = pd.read_csv("Accidentes de Transito - Dataset.csv", encoding="utf-8-sig")
+    df = pd.read_csv(ruta_csv, encoding="utf-8-sig")
     return df
- 
-df = cargar_datos()
- 
+
 # ---------------------------------------------------------------
 # Navegación lateral (sigue el orden del notebook resumen)
 # ---------------------------------------------------------------
