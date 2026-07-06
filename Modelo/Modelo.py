@@ -61,6 +61,8 @@ def cargar_datos():
     df = pd.read_csv(ruta_csv, encoding="utf-8-sig")
     return df
 
+df = cargar_datos()
+
 # ---------------------------------------------------------------
 # Navegación lateral (sigue el orden del notebook resumen)
 # ---------------------------------------------------------------
